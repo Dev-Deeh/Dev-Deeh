@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Dev-Deeh</title>
+  <desc id="d">Capa escura com linhas animadas em forma de pétalas e o nome Dev-Deeh</desc>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08080a"/>
+      <stop offset=".55" stop-color="#121216"/>
+      <stop offset="1" stop-color="#1b1710"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f1ea"/>
+      <stop offset="1" stop-color="#d9b36c"/>
+    </linearGradient>
+    <radialGradient id="brilho">
+      <stop offset="0" stop-color="#d9b36c" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#d9b36c" stop-opacity="0"/>
+    </radialGradient>
+    <path id="petala" d="M0 0C-46-58-46-120 0-178C46-120 46-58 0 0Z"/>
+    <style>
+      .giro { transform-origin: 930px 196px; animation: giro 60s linear infinite; }
+      .giro2 { transform-origin: 930px 196px; animation: giro 90s linear infinite reverse; }
+      .pulso { transform-origin: 930px 196px; animation: pulso 5s ease-in-out infinite; }
+      .sobe { animation: sobe .9s ease-out both; }
+      .sobe.b { animation-delay: .25s; }
+      .sobe.c { animation-delay: .5s; }
+      .traco { stroke-dasharray: 260; animation: traco 1.4s ease-out both .4s; }
+      @keyframes giro { to { transform: rotate(360deg); } }
+      @keyframes pulso { 50% { transform: scale(1.08); opacity: .75; } }
+      @keyframes sobe { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+      @keyframes traco { from { stroke-dashoffset: 260; } to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .giro, .giro2, .pulso, .sobe, .traco { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#fundo)"/>
+  <circle class="pulso" cx="930" cy="196" r="270" fill="url(#brilho)"/>
+
+  <g fill="none" stroke-linejoin="round">
+    <g class="giro" stroke="#d9b36c" stroke-opacity=".3" stroke-width="1">
+      <use href="#petala" transform="translate(930 196) rotate(0) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(30) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(60) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(90) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(120) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(150) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(180) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(210) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(240) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(270) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(300) scale(1.45)"/>
+      <use href="#petala" transform="translate(930 196) rotate(330) scale(1.45)"/>
+    </g>
+    <g class="giro2" stroke="#f4f1ea" stroke-opacity=".55" stroke-width="1.3">
+      <use href="#petala" transform="translate(930 196) rotate(15) scale(.82)"/>
+      <use href="#petala" transform="translate(930 196) rotate(75) scale(.82)"/>
+      <use href="#petala" transform="translate(930 196) rotate(135) scale(.82)"/>
+      <use href="#petala" transform="translate(930 196) rotate(195) scale(.82)"/>
+      <use href="#petala" transform="translate(930 196) rotate(255) scale(.82)"/>
+      <use href="#petala" transform="translate(930 196) rotate(315) scale(.82)"/>
+    </g>
+  </g>
+  <circle cx="930" cy="196" r="5" fill="#f4f1ea"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text class="sobe" x="72" y="138" font-size="17" letter-spacing="6" fill="#d9b36c">OLÁ, EU SOU</text>
+    <text class="sobe b" x="70" y="206" font-size="68" font-weight="700" letter-spacing="1" fill="url(#ouro)">Dev-Deeh</text>
+  </g>
+  <path class="traco" d="M72 228H332" stroke="#d9b36c" stroke-width="2" fill="none"/>
+  <text class="sobe c" x="72" y="264" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" fill="#c9c6bd">Crio apps que resolvem a rotina de quem está por perto.</text>
+</svg>
