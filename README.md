@@ -1,62 +1,40 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Dev-Deeh: crio apps que resolvem a rotina de quem está por perto" width="100%">
+<img src="assets/banner.png" alt="Dev-Deeh: sites e bots para quem joga League of Legends com os amigos" width="100%">
 
 </div>
 
 <br>
 
-Gosto de pegar um problema real, daqueles do grupo do time ou do trabalho, e transformar em algo que as pessoas abrem e usam. Do jeito mais simples que resolva.
+## 🏆 Copa LoL
 
-## Projetos
+<a href="https://copa-lol.pages.dev/"><img src="assets/vitrine.png" alt="Copa LoL: página inicial, draft ao vivo e versão para celular" width="100%"></a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌸 Bloom White</h3>
-      App do meu time de League of Legends: agenda, presença, scout, draft, resultados, ranking de MVP e notificações no celular.
-      <br><br>
-      <code>PWA</code> <code>Firebase</code> <code>Cloudflare Workers</code>
-      <br><br>
-      <a href="https://bloom-white.web.app"><b>Abrir o app →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏆 Copa LoL</h3>
-      Campeonatos amistosos de League of Legends: registre jogadores, escolha capitães, sorteie a ordem do draft e monte os times ao vivo.
-      <br><br>
-      <code>JavaScript</code> <code>Web</code>
-      <br><br>
-      <a href="https://copa-lol.pages.dev/"><b>Abrir o site →</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>☕ Café da Manhã do Suporte</h3>
-      Organiza o café mensal da equipe: sorteia os grupos, divide o cardápio, soma as despesas e mantém o histórico, tudo sincronizado.
-      <br><br>
-      <code>JavaScript</code> <code>Firebase</code> <code>GitHub Pages</code>
-      <br><br>
-      <a href="https://dev-deeh.github.io/cafe-da-manha-suporte/"><b>Abrir o site →</b></a> ·
-      <a href="https://github.com/Dev-Deeh/cafe-da-manha-suporte">Código</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 Assistente da Faculdade</h3>
-      Bot de Telegram que ajuda a organizar a faculdade: cadastro de disciplinas, provas e controle de faltas.
-      <br><br>
-      <code>Node.js</code> <code>Telegram</code>
-      <br><br>
-      <a href="https://github.com/Dev-Deeh/dashboard"><b>Ver o código →</b></a>
-    </td>
-  </tr>
-</table>
+Plataforma completa para campeonatos amistosos de League of Legends: inscrições, capitães, draft dos times ao vivo, chaveamento, estatísticas, bolão e Hall da Fama. Os jogadores acompanham tudo em tempo real, no computador ou no celular.
 
-## O que uso nos projetos
+<img src="assets/recursos.png" alt="Draft ao vivo, Drafter Fearless, bot no Discord e API da Riot" width="100%">
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-0b0b0d?style=for-the-badge&logo=javascript&logoColor=d9b36c" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML5-0b0b0d?style=for-the-badge&logo=html5&logoColor=d9b36c" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS-0b0b0d?style=for-the-badge&logo=css&logoColor=d9b36c" alt="CSS">
-  <img src="https://img.shields.io/badge/Node.js-0b0b0d?style=for-the-badge&logo=nodedotjs&logoColor=d9b36c" alt="Node.js">
-  <img src="https://img.shields.io/badge/Firebase-0b0b0d?style=for-the-badge&logo=firebase&logoColor=d9b36c" alt="Firebase">
-  <img src="https://img.shields.io/badge/Cloudflare-0b0b0d?style=for-the-badge&logo=cloudflare&logoColor=d9b36c" alt="Cloudflare">
+  <a href="https://copa-lol.pages.dev/"><img src="https://img.shields.io/badge/Abrir_o_site-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=0b0906" alt="Abrir o site"></a>
+  <img src="https://img.shields.io/badge/JavaScript-16130c?style=for-the-badge&logo=javascript&logoColor=D4AF37" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Firebase-16130c?style=for-the-badge&logo=firebase&logoColor=D4AF37" alt="Firebase">
+  <img src="https://img.shields.io/badge/Cloudflare-16130c?style=for-the-badge&logo=cloudflare&logoColor=D4AF37" alt="Cloudflare">
+  <img src="https://img.shields.io/badge/Riot_API-16130c?style=for-the-badge&logo=riotgames&logoColor=D4AF37" alt="Riot API">
 </p>
+
+<br>
+
+## 🤖 Bot de LoL para Discord
+
+<a href="https://github.com/Dev-Deeh/bot-lol-discord"><img src="assets/bot.png" alt="Bot de LoL: cards de perfil, partida ao vivo e ranking" width="100%"></a>
+
+<p>
+  <a href="https://github.com/Dev-Deeh/bot-lol-discord"><img src="https://img.shields.io/badge/Ver_o_código-5865F2?style=for-the-badge&logo=github&logoColor=white" alt="Ver o código"></a>
+  <img src="https://img.shields.io/badge/Python-15161b?style=for-the-badge&logo=python&logoColor=8E98FF" alt="Python">
+  <img src="https://img.shields.io/badge/discord.py-15161b?style=for-the-badge&logo=discord&logoColor=8E98FF" alt="discord.py">
+  <img src="https://img.shields.io/badge/Riot_API-15161b?style=for-the-badge&logo=riotgames&logoColor=8E98FF" alt="Riot API">
+</p>
+
+<br>
+
+<p align="center"><sub>Copa LoL e Bot de LoL não são endossados pela Riot Games. League of Legends é marca registrada da Riot Games, Inc.</sub></p>
