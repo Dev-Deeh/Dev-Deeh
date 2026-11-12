@@ -1,40 +1,62 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Dev-Deeh: sites e bots para quem joga League of Legends com os amigos" width="100%">
+<img src="assets/banner.png" alt="Dev-Deeh, desenvolvedor de software" width="100%">
 
 </div>
 
-<br>
+## Sobre
 
-## 🏆 Copa LoL
+Desenvolvedor de software focado em produtos que as pessoas usam todos os dias: bots para Discord,
+aplicativos web instaláveis no celular e automações que rodam sozinhas na nuvem.
 
-<a href="https://copa-lol.pages.dev/"><img src="assets/vitrine.png" alt="Copa LoL: página inicial, draft ao vivo e versão para celular" width="100%"></a>
+Cuido do projeto de ponta a ponta: entendo o problema com quem vai usar, desenho a interface, escrevo o
+código, coloco no ar e acompanho em produção. Gosto de soluções simples, rápidas e com custo de hospedagem
+zero, usando Python, JavaScript, Firebase, Cloudflare e Google Cloud.
 
-Plataforma completa para campeonatos amistosos de League of Legends: inscrições, capitães, draft dos times ao vivo, chaveamento, estatísticas, bolão e Hall da Fama. Os jogadores acompanham tudo em tempo real, no computador ou no celular.
+## Projetos
 
-<img src="assets/recursos.png" alt="Draft ao vivo, Drafter Fearless, bot no Discord e API da Riot" width="100%">
+<a href="https://github.com/Dev-Deeh/bot-lol-discord"><img src="assets/bot.png" alt="Bot Deeh LOL" width="100%"></a>
 
-<p>
-  <a href="https://copa-lol.pages.dev/"><img src="https://img.shields.io/badge/Abrir_o_site-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=0b0906" alt="Abrir o site"></a>
-  <img src="https://img.shields.io/badge/JavaScript-16130c?style=for-the-badge&logo=javascript&logoColor=D4AF37" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Firebase-16130c?style=for-the-badge&logo=firebase&logoColor=D4AF37" alt="Firebase">
-  <img src="https://img.shields.io/badge/Cloudflare-16130c?style=for-the-badge&logo=cloudflare&logoColor=D4AF37" alt="Cloudflare">
-  <img src="https://img.shields.io/badge/Riot_API-16130c?style=for-the-badge&logo=riotgames&logoColor=D4AF37" alt="Riot API">
-</p>
-
-<br>
-
-## 🤖 Bot de LoL para Discord
-
-<a href="https://github.com/Dev-Deeh/bot-lol-discord"><img src="assets/bot.png" alt="Bot de LoL: cards de perfil, partida ao vivo e ranking" width="100%"></a>
-
-<p>
-  <a href="https://github.com/Dev-Deeh/bot-lol-discord"><img src="https://img.shields.io/badge/Ver_o_código-5865F2?style=for-the-badge&logo=github&logoColor=white" alt="Ver o código"></a>
-  <img src="https://img.shields.io/badge/Python-15161b?style=for-the-badge&logo=python&logoColor=8E98FF" alt="Python">
-  <img src="https://img.shields.io/badge/discord.py-15161b?style=for-the-badge&logo=discord&logoColor=8E98FF" alt="discord.py">
-  <img src="https://img.shields.io/badge/Riot_API-15161b?style=for-the-badge&logo=riotgames&logoColor=8E98FF" alt="Riot API">
-</p>
+**Bot Deeh LOL**: bot de Discord para times de League of Legends, no ar 24 horas e usado por dois times.
+Analisa adversários pela API da Riot e sugere bans, reconhece tier lists por imagem, organiza o servidor e
+transforma os avisos do aplicativo do time em cards.
+[Ver o código](https://github.com/Dev-Deeh/bot-lol-discord)
 
 <br>
 
-<p align="center"><sub>Copa LoL e Bot de LoL não são endossados pela Riot Games. League of Legends é marca registrada da Riot Games, Inc.</sub></p>
+<img src="assets/bloom.png" alt="App do time Bloom" width="100%">
+
+**App do time Bloom**: aplicativo web instalável (PWA) usado pelos times Bloom White e Bloom Red. Agenda,
+confirmação de presença, voto de MVP, scout e draft, com notificações push e um robô serverless no
+Cloudflare que publica tudo no Discord. Código privado.
+
+<br>
+
+<a href="https://copa-lol.pages.dev/"><img src="assets/copa.png" alt="Copa LoL" width="100%"></a>
+
+**Copa LoL**: plataforma para campeonatos amistosos com inscrições, escolha de capitães, draft ao vivo,
+chaveamento, estatísticas e bolão, tudo em tempo real no navegador.
+[Abrir o site](https://copa-lol.pages.dev/)
+
+<br>
+
+<a href="https://dev-deeh.github.io/cafe-da-manha-suporte/"><img src="assets/cafe.png" alt="Café da Manhã do Suporte" width="100%"></a>
+
+**Café da Manhã do Suporte**: sistema interno que organiza o café da manhã mensal de uma equipe, do sorteio
+dos grupos ao rateio das despesas, sincronizado entre todos.
+[Abrir o site](https://dev-deeh.github.io/cafe-da-manha-suporte/) ·
+[Ver o código](https://github.com/Dev-Deeh/cafe-da-manha-suporte)
+
+## Tecnologias
+
+| Área | Ferramentas |
+|---|---|
+| Linguagens | Python, JavaScript, HTML, CSS, SQL |
+| Back-end e bots | discord.py, aiohttp, SQLite, APIs REST |
+| Front-end | JavaScript puro, PWA, Service Worker |
+| Dados e nuvem | Firebase (Firestore, Hosting, Cloud Messaging), Cloudflare Workers e Pages, Google Cloud |
+| Imagem | Pillow e NumPy para gerar cards e reconhecer imagens |
+
+<br>
+
+<p align="center"><sub>League of Legends é marca registrada da Riot Games, Inc. Estes projetos não são endossados pela Riot Games.</sub></p>
